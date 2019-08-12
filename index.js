@@ -1,6 +1,6 @@
 function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name)
-  var place = indexOf(katzDeliLine.length -1)
+  var place = indexOf(katzDeliLine.length += 1);
   return `Welcome, ${name}. You are number ${place} in line.`
  }
 
